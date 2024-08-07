@@ -34,7 +34,7 @@ class Graph extends Component<IProps, {}> {
     // Get element to attach the table from the DOM.
     const elem = document.getElementsByTagName('perspective-viewer')[0] as unknown as PerspectiveViewerElement;
 
-    elem.setAttribute('view','y-line');
+    elem.setAttribute('view','y_line');
     elem.setAttribute('column-pivots', '["stock"]');
     elem.setAttribute('row-pivots','["timestamp"]');
     elem.setAttribute('columns','["top_ask_price"]');
