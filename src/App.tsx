@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import DataStreamer, {ServerRespond} from './DataStreamer';
 import Graph from './Graph';
 import './App.css';
-import {setInterval} from "node:timers";
-import {ServerResponse} from "node:http";
+//import {setInterval} from "node:timers";
 
 /**
  * State declaration for <App />
